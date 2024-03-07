@@ -17,7 +17,9 @@ def get_books():
 @app.route("/")
 def home():
     print("I am print statement")
-    return "I am home goto /api/books"
+    return "I am home.This is a docker image hosted on dockerhub Goto the endpoint /api/books"
+
+
 
 # Run the Flask application
 if __name__ == "__main__":
